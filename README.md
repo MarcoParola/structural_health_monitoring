@@ -6,7 +6,7 @@ Adopting a Supervised Learning (SL) approach allows to make a more accurate data
 
 &nbsp;
 
-## **Scenario**
+## **Scenario** 
 All methods proposed in this repo refer to the following scenario shown on the figure below: 2D frame of a two-floor building. 16 sensors are installed at different locations to monitor both the X and Y axis. The red circles mark the exact points of the sensor positioning, in each point are placed both a *displacement sensor* and an *accelerometer*.
 
 ![plot](./img/Sensors_position.png)
