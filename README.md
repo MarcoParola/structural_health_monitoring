@@ -26,9 +26,24 @@ The project is composed by the following files and folders:
 
 ```
 wget http://131.114.50.176/owncloud/s/TZ1G53X18PevT1b/download -O dataset.zip
+```
 
- TODO
-unzip
-cp
+## **References**
+If you want to read the full article you can find it on [SciTePress](https://www.scitepress.org/PublicationsDetail.aspx?ID=Wt3E3qLWRcs=&t=1).
+
+If you found the work useful, please mention it as follows
+```
+@conference{delta22,
+    author={Marco Parola. and Federico Galatolo. and Matteo Torzoni. and Mario Cimino. and Gigliola Vaglini.},
+    title={Structural Damage Localization via Deep Learning and IoT Enabled Digital Twin},
+    booktitle={Proceedings of the 3rd International Conference on Deep Learning Theory and Applications - DeLTA,},
+    year={2022},
+    pages={199-206},
+    publisher={SciTePress},
+    organization={INSTICC},
+    doi={10.5220/0011320600003277},
+    isbn={978-989-758-584-5},
+    issn={2184-9277},
+}
 ```
 
