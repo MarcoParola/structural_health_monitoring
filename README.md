@@ -2,6 +2,22 @@
 
 
 This repository contains source code of a work conducted in the structural health monitoring domain.
+If you want to read the full article you can find it on [SciTePress](https://www.scitepress.org/PublicationsDetail.aspx?ID=Wt3E3qLWRcs=&t=1).
+If you find the work useful, please mention it as follows
+```
+@conference{delta22,
+    author={Marco Parola. and Federico Galatolo. and Matteo Torzoni. and Mario Cimino. and Gigliola Vaglini.},
+    title={Structural Damage Localization via Deep Learning and IoT Enabled Digital Twin},
+    booktitle={Proceedings of the 3rd International Conference on Deep Learning Theory and Applications - DeLTA,},
+    year={2022},
+    pages={199-206},
+    publisher={SciTePress},
+    organization={INSTICC},
+    doi={10.5220/0011320600003277},
+    isbn={978-989-758-584-5},
+    issn={2184-9277},
+}
+```
 
 ## **Abstract**
 Structural Health Monitoring (SHM) of civil structures using IoT sensors is a major emerging challenge. SHM aims to detect and identify any deviation from a reference condition, typically a damage-free baseline, to keep track of the relevant structural integrity. Machine Learning (ML) techniques have recently been employed to empower vibration-based SHM systems. Supervised ML tends to achieve better accuracy than unsupervised ML, but it requires human intervention to label data appropriately. However, labelled data related to damage conditions of civil structures are often unavailable. To overcome this limitation, a key solution is a digital twin relying on physics-based numerical models to simulate the structural response in terms of the vibration recordings provided by IoT devices during the events of interest, such as wind or seismic excitations. This paper presents such comprehensive approach, here framed to address the tasks of damage localization, exploiting a Convolutional Neural Network (CNN). Early experimental results relevant to a pilot application involving a sample structure, show the potential of the proposed approach, as well as the reusability of the trained system in presence of varying loading scenarios.
@@ -28,22 +44,5 @@ The project is composed by the following files and folders:
 wget http://131.114.50.176/owncloud/s/TZ1G53X18PevT1b/download -O dataset.zip
 ```
 
-## **References**
-If you want to read the full article you can find it on [SciTePress](https://www.scitepress.org/PublicationsDetail.aspx?ID=Wt3E3qLWRcs=&t=1).
 
-If you found the work useful, please mention it as follows
-```
-@conference{delta22,
-    author={Marco Parola. and Federico Galatolo. and Matteo Torzoni. and Mario Cimino. and Gigliola Vaglini.},
-    title={Structural Damage Localization via Deep Learning and IoT Enabled Digital Twin},
-    booktitle={Proceedings of the 3rd International Conference on Deep Learning Theory and Applications - DeLTA,},
-    year={2022},
-    pages={199-206},
-    publisher={SciTePress},
-    organization={INSTICC},
-    doi={10.5220/0011320600003277},
-    isbn={978-989-758-584-5},
-    issn={2184-9277},
-}
-```
 
